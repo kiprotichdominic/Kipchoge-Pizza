@@ -1,0 +1,156 @@
+/* Google fonts inport */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* top image with delani name and background image */
+.imgtop {
+  background-size: cover;
+}
+.delani1 {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: auto;
+}
+.mytop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.mytop,
+h1,
+p {
+  font-family: Lato;
+}
+.mytop {
+  color: white;
+}
+/* about us stylesheet */
+.aboutus {
+  height: 30vh;
+  padding-top: 20px;
+}
+.aboutus > p {
+  font-family: Lato;
+}
+/* services section */
+.service1 {
+  background: url("../images/backgrounds/s_image.jpg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 40vh;
+  color: white;
+}
+.service1 > h3 {
+  font-size: 8vw;
+}
+/* .serviceimg {
+  width: 100%;
+} */
+.service2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* What we do */
+.wedo {
+  padding-top: 5vh;
+}
+/* // what we do styling */
+.myrow {
+  padding: 1rem;
+}
+/* portfolio styling */
+.myproject {
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  top: 58%;
+  left: 48%;
+  transform: translate(-50%, -80%);
+  display: none;
+}
+.img1:hover {
+  opacity: 0.3;
+}
+.myproject:hover {
+  opacity: 1;
+}
+/* form styling */
+.myhead {
+  margin-top: 4vh;
+}
+#name,
+#email,
+#textarea {
+  background: transparent;
+}
+.myform {
+  position: relative;
+
+  left: 0;
+  top: 0;
+  height: auto;
+}
+.submitme {
+  margin-bottom: 17vh;
+}
+/* portfolio section */
+.port1 {
+  padding-bottom: 5vh;
+}
+.mycontact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.myform > h3 {
+  text-transform: uppercase;
+  padding-top: 2vh;
+}
+.submitme {
+  margin-top: 1rem;
+  margin-left: 50%;
+}
+/* contact us section */
+.mycontact {
+  padding-top: 10vh;
+}
+.mycontact > h3 {
+  color: white;
+}
+.myfoot {
+  padding-top: 3vh;
+}
+/* keyframes */
+.anim {
+  animation: pulse 5s infinite;
+  padding-top: 2vh;
+  animation-duration: 2s;
+  animation-name: mymouse;
+}
+@keyframes mymouse {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* media queries */
