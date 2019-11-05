@@ -1,8 +1,14 @@
 /* Google fonts inport */
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* top image with delani name and background image */
 .imgtop {
+  height: 100vh;
+  width: 100%;
   background-size: cover;
 }
 .delani1 {
@@ -13,10 +19,13 @@
 }
 .mytop {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
+}
+.myhead {
+  font-size: 2.7rem;
 }
 .mytop,
 h1,
@@ -28,7 +37,7 @@ p {
 }
 /* about us stylesheet */
 .aboutus {
-  height: 30vh;
+  height: 40vh;
   padding-top: 20px;
 }
 .aboutus > p {
@@ -37,12 +46,11 @@ p {
 /* services section */
 .service1 {
   background: url("../images/backgrounds/s_image.jpg");
-  background-size: cover;
   width: 100%;
   position: relative;
   left: 0;
   top: 0;
-  height: 40vh;
+  height: 60vh;
   color: white;
 }
 .service1 > h3 {
@@ -60,12 +68,17 @@ p {
 /* What we do */
 .wedo {
   padding-top: 5vh;
+  height: 50vh;
 }
 /* // what we do styling */
 .myrow {
   padding: 1rem;
 }
 /* portfolio styling */
+.port1 {
+  padding-top: 5vh;
+}
+
 .myproject {
   position: absolute;
   padding: 5px;
@@ -91,12 +104,14 @@ p {
 #textarea {
   background: transparent;
 }
+.contactme {
+  height: 90vh;
+  width: 100%;
+}
 .myform {
   position: relative;
-
   left: 0;
   top: 0;
-  height: auto;
 }
 .submitme {
   margin-bottom: 17vh;
@@ -129,6 +144,7 @@ p {
 }
 .myfoot {
   padding-top: 3vh;
+  height: 10vh;
 }
 /* keyframes */
 .anim {

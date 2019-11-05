@@ -32,24 +32,11 @@ $(document).ready(function() {
   );
 });
 
-//   //poup on submission
-//   //form submission
-// //   $(document).ready(function() {
-// //     document.getElementById("form").addEventListener("submit", popUp);
-// //     function popUp() {
-// //       alert("Thanks Your message has been received.");
-// //     }
-// //   });
-// //   form.onsubmit = async e => {
-// //     e.preventDefault();
-
-// //     let response = await fetch("/article/formdata/post/user", {
-// //       method: "POST",
-// //       body: new FormData(form)
-// //     });
-
-// //     let result = await response.json();
-
-// //     alert(result.message);
-// //   };
-// // });
+//poup on submission
+//form submissio
+$(document).ready(function() {
+  document.getElementById("form").addEventListener("submit", popUp);
+  function popUp() {
+    alert("Thanks Your message has been received.");
+  }
+});
