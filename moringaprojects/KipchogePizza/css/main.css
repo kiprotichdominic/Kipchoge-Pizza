@@ -1,0 +1,32 @@
+/********** FILE IMPORTS **********/
+/*************************************/
+
+@import url("bootstrap.css");
+
+/* main page styling */
+.myhead {
+    background: url(../images/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-top: 3vh;
+    width: 100%;
+}
+/* top background image */
+.colornav {
+  color: white;
+}
+
+.imagetext {
+  padding-top: 30vh;
+  color: white;
+}
+
+.mouse {
+  padding-top: 31vw;
+}
+
+.myproducts {
+  background-color: wheat;
+}
