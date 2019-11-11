@@ -19,21 +19,6 @@ We give you a platform with unlimited possibilities.
 
 ## Behaviour Driven Development
 
-1. Landing Page
-   - Mouse-Icon: "Smooth Scrolls to the next page. Mouse icon has a bouncing effect."
-   
-2. What We Do Section
-   - Icons: "Click on the icons to display their descriptions."
-   - Descriptions: "Click on the descriptions again to hide them and to display the icons."
-
-3. Portfolio Section
-   - Images: "Hover on each image to display their respective descriptions." 
-
-4. Contact Us Section
-   - INPUT: "Fill all forms and Submit" 
-   - OUTPUT: "A popup notifcation thanking you for the feedback."
-
-
 ## Known Bugs
 
 My Delani Studio is a fictional studio.
